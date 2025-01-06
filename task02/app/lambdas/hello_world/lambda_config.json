@@ -13,7 +13,10 @@
   "env_variables": {},
   "publish_version": true,
   "alias": "learn",
-  "url_config": {},
+  "url_config": {
+    "auth_type": "AWS_IAM",
+    "invoke_mode": "BUFFERED"
+  },
   "ephemeral_storage": 512,
   "tags": {}
 }
