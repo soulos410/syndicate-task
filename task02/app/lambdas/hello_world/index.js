@@ -5,7 +5,7 @@ exports.handler = async (event) => {
     if (path === "/hello" && method === "GET") {
         const response = {
             statusCode: 200,
-            message: JSON.stringify('Hello from Lambda'),
+            message: 'Hello from Lambda',
         };
 
         return response;
